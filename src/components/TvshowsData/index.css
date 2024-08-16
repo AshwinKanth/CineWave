@@ -1,0 +1,26 @@
+.tvShowsItem-container{
+    list-style: none;
+    width: 23%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.tvShowsItem-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .tvShowsItem-container{
+        width: 46%;
+        margin: 7px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1100px){
+    .tvShowsItem-container{
+        width: 30%;
+    }
+}

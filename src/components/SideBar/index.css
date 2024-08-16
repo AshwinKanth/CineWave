@@ -1,0 +1,114 @@
+.lgButton-container{
+    width: 20%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 80px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1100px){
+  .lgButton-container{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lgButton-container{
+    display: none;
+  }
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0px;
+    border-top: 1px solid #000;
+    position: fixed;
+    z-index: 9;
+  }
+
+  @media screen and (min-width: 992px){
+    .button-container{
+        display: none;
+    }
+  } 
+  
+  .button {
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+
+
+  @media screen and  (min-width: 992px){
+    .button{
+        display: flex;
+        flex-direction: row;
+        padding: 18px;
+    }
+  }
+  
+
+  .button:hover {
+    transform: translateY(-3px);
+    color: orange;
+  }
+
+
+  
+  .icon {
+    font-size: 30px;
+  }
+
+  .icon:hover{
+    color: orange;
+  }
+
+  @media screen and  (min-width: 992px){
+    .icon{
+        padding-right: 10px;
+    }
+  }
+
+  .contactUsDetails{
+    padding: 15px;
+    background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(122,183,255,1) 0%, rgba(21,83,161,1) 90% );
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .contactHeading{
+    font-size: 20px;
+    font-family: "Roboto";
+  }
+
+  .logs-container{
+    margin: 0px;
+    padding: 0px; 
+  }
+  
+  .contact-logos{
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .contact{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
