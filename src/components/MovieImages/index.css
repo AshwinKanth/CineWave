@@ -3,8 +3,7 @@
     width: 23%;
     margin-right: 20px;
     margin-bottom: 30px;
-    padding-bottom: 50px;
-    text-decoration: none;
+    padding-bottom: 70px;
 }
 
 .imagesItem-container:hover{
@@ -38,4 +37,8 @@
     font-family: "Roboto";
     text-align: center;
     font-weight: 700;
+}
+
+.link{
+    text-decoration: none;
 }

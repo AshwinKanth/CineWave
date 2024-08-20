@@ -14,7 +14,7 @@ const TvShowsData = (props) => {
                 const textColor = isDarkTheme ? "light" : "dark"
                 return (
                     <li className='tvShowsItem-container'>
-                        <Link to={`/tv/${id}`}>
+                        <Link to={`/tv/${id}`} className="link">
                             <img src={imagePath + poster_path} alt="" className="movieImage" />
                             <p className={`title ${textColor}`}>{name}</p>
                         </Link>

@@ -15,7 +15,7 @@ const MovieImages = (props) => {
 
         return (
           <li className='imagesItem-container'>
-            <Link to={`/movies/${id}`}>
+            <Link to={`/movies/${id}`} className="link">
               <img src={imageUrl} alt='' className='movieImage' />
               <p className={`title ${textColor}`}>{title}</p>
             </Link>

@@ -20,17 +20,17 @@ const SideBar = () => (
             return (
                 <div className="sideBars">
                     <div className={`lgButton-container ${bgColor}`}>
-                        <Link to="/">
+                        <Link to="/" className="link">
                             <li className={`button ${textColor}`}>
                                 <RiHome7Fill className={`icon ${textColor}`} /> Home
                             </li>
                         </Link>
-                        <Link to="/movies">
+                        <Link to="/movies" className="link">
                             <li className={`button ${textColor}`}>
                                 <MdOutlineLocalMovies className={`icon ${textColor}`} /> Movies
                             </li>
                         </Link>
-                        <Link to="/tvshows">
+                        <Link to="/tvshows" className="link">
                             <li className={`button ${textColor}`}>
                                 <FaTv className={`icon ${textColor}`} />Tv Shows
                             </li>
@@ -65,17 +65,17 @@ const SideBar = () => (
                     </div>
 
                     <div class={`button-container ${bgColor}`}>
-                        <Link to="/">
+                        <Link to="/" className="link">
                             <button className={`button ${textColor}`}>
                                 <RiHome7Fill className="icon" />
                             </button>
                         </Link>
-                        <Link to="/movies">
+                        <Link to="/movies" className="link">
                             <button className={`button ${textColor}`}>
                                 <MdOutlineLocalMovies className="icon" />
                             </button>
                         </Link>
-                        <Link to="/tvshows">
+                        <Link to="/tvshows" className="link">
                             <button className={`button ${textColor}`}>
                                 <FaTv className={`icon ${textColor}`} />
                             </button>
